@@ -30,25 +30,27 @@ If you are new to Python, the easiest way of installing the prerequisites is via
 conda create --name bete_net python=3.9
 conda activate bete_net
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
-pip install -r /blue/hennig/ajinkya.hire/superC/kamal_c_database/e3nn/requirements.txt -f https://pytorch-geometric.com/whl/torch-1.10.0+cu113.html
+pip install -r requirements.txt -f https://pytorch-geometric.com/whl/torch-1.10.0+cu113.html
 ```
 
 ## Paper
 
-Our paper can be found [here](https://www.nature.com/articles/s41524-022-00891-8)
+Our paper can be found [here](https://arxiv.org/abs/2401.16611)
 
 ## Citation
 
 If you use the code in your work, please cite:
 
 ```
- @article{gibson_hire_hennig_2022, 
- title={Data-augmentation for graph neural network learning of the relaxed energies of unrelaxed structures}, 
- volume={8}, DOI={10.1038/s41524-022-00891-8}, 
- number={1}, 
- journal={npj Computational Materials}, 
- author={Gibson, Jason and Hire, Ajinkya and Hennig, Richard G.}, 
- year={2022}} 
+@misc{gibson2024acceleratingsuperconductordiscoverytempered,
+      title={Accelerating superconductor discovery through tempered deep learning of the electron-phonon spectral function}, 
+      author={Jason B. Gibson and Ajinkya C. Hire and Philip M. Dee and Oscar Barrera and Benjamin Geisler and Peter J. Hirschfeld and Richard G. Hennig},
+      year={2024},
+      eprint={2401.16611},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.supr-con},
+      url={https://arxiv.org/abs/2401.16611}, 
+}
 ```
 
 
